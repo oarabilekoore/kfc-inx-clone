@@ -1,6 +1,6 @@
 import { Layout, Image, Parent } from "innerscope";
 
-export function NavBar(root: Parent | HTMLDivElement){
+export default function NavBar(root: Parent | HTMLDivElement){
     const nav_body = Layout('linear', root)
     nav_body.childAlignment('left')
     nav_body.style.zIndex = '2000'
